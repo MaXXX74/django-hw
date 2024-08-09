@@ -23,4 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('func/', task2_func),
     path('class/', TemplateView.as_view(template_name='second_task/class_template.html')),
+    path('platform/', TemplateView.as_view(template_name='third_task/platform.html')),
+    path('platform/games/', TemplateView.as_view(template_name='third_task/games.html')),
+    path('platform/cart/', TemplateView.as_view(template_name='third_task/cart.html')),
 ]
