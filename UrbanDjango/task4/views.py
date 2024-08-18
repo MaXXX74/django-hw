@@ -14,4 +14,3 @@ def games(request):
 
 def cart(request):
     return render(request, 'fourth_task/cart.html')
- 
